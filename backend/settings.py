@@ -165,6 +165,8 @@ MEDIA_URL = '/media/'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Next.js default port
     "http://127.0.0.1:3000",
+    'https://n-frontend3.vercel.app',
+
 ]
 
 # REST Framework Configuration
